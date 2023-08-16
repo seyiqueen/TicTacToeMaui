@@ -24,19 +24,7 @@ namespace TicTacToe.ViewModels
 
         #endregion Relay Commands
 
-        #region Properties
-
-        /// <summary>
-        /// Get the author's name
-        /// </summary>
-        public string Author => "Charles B. Hayes";
-
-        /// <summary>
-        /// Return the current version number
-        /// </summary>
-        public string Version => Assembly.GetExecutingAssembly().GetName().Version.ToString();
-
-        #endregion Properties
+        
 
     }
 }
