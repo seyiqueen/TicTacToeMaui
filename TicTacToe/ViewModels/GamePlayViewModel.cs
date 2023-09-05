@@ -186,26 +186,17 @@ namespace TicTacToe.ViewModels
         #endregion Auto Relay Commands from Methods
 
         #region Tic-Tac-Toe Square Properties
-
-        /// <summary>
         /// [0] The current value of the left side top square
-        /// </summary>
-        public XorO LeftTopChoice
-        {
+        public XorO LeftTopChoice{
             get => _board[0];
-            set
-            {
-                if (SetProperty(ref _board[0], value))
-                {
+            set{
+                if (SetProperty(ref _board[0], value)){
                     CheckIfWinnerOrDraw();
                     CheckIfComputerPlay();
                 }
             }
         }
-
-        /// <summary>
         /// [1] The current value of the center top square
-        /// </summary>
         public XorO CenterTopChoice
         {
             get => _board[1];
@@ -218,10 +209,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [2] The current value of the right side top square
-        /// </summary>
         public XorO RightTopChoice
         {
             get => _board[2];
@@ -234,10 +222,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [3] The current value of the left side middle square
-        /// </summary>
         public XorO LeftMiddleChoice
         {
             get => _board[3];
@@ -250,10 +235,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [4] The current value of the center square
-        /// </summary>
         public XorO CenterMiddleChoice
         {
             get => _board[4];
@@ -266,10 +248,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [5] The current value of the right side middle square
-        /// </summary>
         public XorO RightMiddleChoice
         {
             get => _board[5];
@@ -282,10 +261,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [6] The current value of the left side bottom square
-        /// </summary>
         public XorO LeftBottomChoice
         {
             get => _board[6];
@@ -298,10 +274,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [7] The current value of the center bottom square
-        /// </summary>
         public XorO CenterBottomChoice
         {
             get => _board[7];
@@ -314,10 +287,7 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
-        /// <summary>
         /// [8] The current value of the right side bottom square
-        /// </summary>
         public XorO RightBottomChoice
         {
             get => _board[8];
@@ -330,7 +300,6 @@ namespace TicTacToe.ViewModels
                 }
             }
         }
-
         #endregion Tic-Tac-Toe Square Properties
 
         #region Properties
