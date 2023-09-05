@@ -71,76 +71,40 @@ namespace TicTacToe.ViewModels
         #endregion Constructor
 
         #region Auto Properties From Fields
-
-        /// <summary>
         /// Indicates if the computer starts
-        /// </summary>
         [ObservableProperty]
         private bool _computerStarts;
-
-        /// <summary>
         /// Indicates that the game is over
-        /// </summary>
         [ObservableProperty]
         private bool _gameOver;
-
-        /// <summary>
         /// The size of the tic-tac-toe board, the width and height needs to be the same
-        /// </summary>
         [ObservableProperty]
         private double _gridSize;
-
-        /// <summary>
         /// Indicates that the game has a winner, versus a tie
-        /// </summary>
         [ObservableProperty]
         private bool _hasWinner;
-
-        /// <summary>
         /// Brief description of next step that is displayed
-        /// </summary>
         [ObservableProperty]
         private string _instructions;
-
-        /// <summary>
         /// Used to hide the Title if the height is too small
-        /// </summary>
         [ObservableProperty]
         private double _topRowHeight;
-
-        /// <summary>
         /// Indicates if it is a two player game; otherwise, one player
-        /// </summary>
         [ObservableProperty]
         private bool _twoPlayer;
-
-        /// <summary>
         /// Indicates that a winning combination has been found
-        /// </summary>
         [ObservableProperty]
         private int _winningSelection;
-
-        /// <summary>
         /// Handles the location of the winning line (X1, Y1) - (X2 - Y2).
-        /// </summary>
         [ObservableProperty]
         private double _winningX1;
-
-        /// <summary>
         /// Handles the location of the winning line (X1, Y1) - (X2 - Y2).
-        /// </summary>
         [ObservableProperty]
         private double _winningX2;
-
-        /// <summary>
         /// Handles the location of the winning line (X1, Y1) - (X2 - Y2).
-        /// </summary>
         [ObservableProperty]
         private double _winningY1;
-
-        /// <summary>
         /// Handles the location of the winning line (X1, Y1) - (X2 - Y2).
-        /// </summary>
         [ObservableProperty]
         private double _winningY2;
 
