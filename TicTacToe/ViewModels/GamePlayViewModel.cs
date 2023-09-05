@@ -111,58 +111,31 @@ namespace TicTacToe.ViewModels
         #endregion Auto Properties From Fields
 
         #region Tic-Tac-Toe Square Auto Generated Relay Commands
-
-        /// <summary>
         /// [0] Handles the click event for the left side top square
-        /// </summary>
         [RelayCommand]
         internal void LeftTopClick() { LeftTopChoice = PickSquare(LeftTopChoice); }
-
-        /// <summary>
         /// [1] Handles the click event for the center top square
-        /// </summary>
         [RelayCommand]
         internal void CenterTopClick() { CenterTopChoice = PickSquare(CenterTopChoice); }
-
-        /// <summary>
         /// [2] Handles the click event for the right side top square
-        /// </summary>
         [RelayCommand]
         internal void RightTopClick() { RightTopChoice = PickSquare(RightTopChoice); }
-
-        /// <summary>
         /// [3] Handles the click event for the left side middle square
-        /// </summary>
         [RelayCommand]
         internal void LeftMiddleClick() { LeftMiddleChoice = PickSquare(LeftMiddleChoice); }
-
-        /// <summary>
         /// [4] Handles the click event for the center square
-        /// </summary>
         [RelayCommand]
         internal void CenterMiddleClick() { CenterMiddleChoice = PickSquare(CenterMiddleChoice); }
-
-        /// <summary>
         /// [5] Handles the click event for the right side middle square
-        /// </summary>
         [RelayCommand]
         internal void RightMiddleClick() { RightMiddleChoice = PickSquare(RightMiddleChoice); }
-
-        /// <summary>
         /// [6] Handles the click event for the left side bottom square
-        /// </summary>
         [RelayCommand]
         internal void LeftBottomClick() { LeftBottomChoice = PickSquare(LeftBottomChoice); }
-
-        /// <summary>
         /// [7] Handles the click event for the center bottom square
-        /// </summary>
         [RelayCommand]
         internal void CenterBottomClick() { CenterBottomChoice = PickSquare(CenterBottomChoice); }
-
-        /// <summary>
         /// [8] Handles the click event for the right side bottom square
-        /// </summary>
         [RelayCommand]
         internal void RightBottomClick() { RightBottomChoice = PickSquare(RightBottomChoice); }
 
